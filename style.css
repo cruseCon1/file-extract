@@ -1,0 +1,74 @@
+body, html{
+    height: 100vh;
+}
+
+
+#app {
+    color: #222;
+}
+
+header {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 7px 20px 0px 0px;
+    width: 100px;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+/* Container for better alignment */
+.checkbox-button {
+    margin-bottom: 10px;
+}
+
+#file-input {
+    width: 90%;
+    padding: 5px 0px;
+}
+
+/* Style for the label */
+label {
+    /* background-color: #007bff; */
+    /* color: white; */
+    padding: 5px 0px;
+    margin-top: 5px;
+    width: 500px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.1s;
+    border: 2px solid transparent;
+}
+
+/* Hover effect for the label */
+label:hover {
+    background-color: #0056b3;
+}
+
+/* When the checkbox is checked */
+input[type="checkbox"]:checked + label {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: black;
+}
+
+/* Check all button */
+#toggle-all {
+    background-color: #6c757d;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+#toggle-all:hover {
+    background-color: #5a6268;
+}

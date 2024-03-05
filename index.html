@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Extract</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> File Extraction </header>
+    <div id="app">
+        <input type="file" id="file-input" multiple>
+        <div>
+            <button id="read-file">Read File</button>
+            <button id="check-all">Check All</button>
+            <button id="extract" disabled>Extract</button>
+            <button id="reset">Reset</button>
+            <button id="help">Help</button>
+        </div>
+        <div id="checkbox-area"></div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+
+</body>
+</html>
